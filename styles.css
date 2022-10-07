@@ -1,0 +1,144 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    box-sizing: border-box;
+  /*  color palette from: https://color.adobe.com/yellow-color-theme-1193598/ */
+  --yellow1: #F2D230;
+  --yellow2: #D9CA82;
+  --yellow3: #D9A711;
+  --tan: #BFB39B;
+  --white: #F2F2F2;
+}
+#wrapper{
+    width: 1280px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-image: url('files/wov.png');
+}
+header, footer{
+    background-color: var(--yellow2);
+    color: #000000;
+    padding: 15px;
+    text-align: center;
+}
+.header-link{
+    font-size: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+.header-image{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+h3{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid var(--tan);
+    margin: auto;
+}
+nav{
+    padding-left: 4rem;
+    background-color: #D9A711;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: auto;
+}
+nav li{
+    width: 275px;
+}
+nav a{
+   text-decoration: none;
+   text-align: center;
+   margin: 0 1rem;
+   font-size: 1.1rem;
+   font-weight: bold;
+   border-radius: 0.25rem;
+}
+nav a:hover{
+	text-decoration: none;
+	background-color: var(--yellow1);
+	color: #000000;
+}
+a{
+    display: block;
+    padding: 1rem;
+    color: #000000;
+}
+a.current {
+    text-decoration: underline;
+    text-decoration-thickness: 20%;
+  }
+main{
+    background-color: #F2F2F2;
+}
+main a{
+    font-size: 25px;
+    color: #000000;
+}
+main a:hover{
+    font-size: 25px;
+    color: var(--tan)
+}
+p{
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 75ch;
+    padding: 0.5rem 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.column {
+    float: left;
+    padding: 10px;
+  }
+  
+.left {
+    width: 50%;
+    display: block;
+    text-align: center;
+  }
+.right {
+    width: 50%;
+  }
+#local img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#chef img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+form{
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    padding: 16px;;
+}
+input[type=text], input[type=tel], input[type=email], input[type=number], select, textarea{
+    width: 100%;
+    display: inline;
+}
